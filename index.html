@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Allura&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Parisienne&display=swap" rel="stylesheet">
+    <title>PagePalette</title>
+</head>
+<body>
+    <header id="home-interface">
+        <div class="navbar">
+            <div class="logo"></div>
+            <div>
+                <p class="name">PagePalette</p>
+                <p class="quote">You call it a book but I hear magic...</p>
+                <p class="thank">THANK YOU FOR VISITING...</p>
+            </div>
+        </div>
+        
+        <div class="nav-search bordersearch">
+            <div class="search-icon">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+            <input placeholder="Search your interest here..." id="search-input">
+            <div class="voice-search-icon" onclick="voice()">
+                <i class="fa-solid fa-microphone"></i>
+            </div>
+            <input type="hidden" id="voice-text">
+        </div>
+
+        <div class="midbar">
+            <p class="popular">Most Popular</p>
+            <div class="shelf-popular border">
+                <button class="book book1"></button>
+                <button class="book book2"></button>
+                <button class="book book3"></button>
+                <button class="book book4"></button>
+                <button class="book book5"></button>
+                <button class="book book6"></button>
+                <button class="book book7"></button>
+                <button class="book book8"></button>
+                <button class="book book9"></button>
+                <button class="book book10"></button>
+                
+                <button class="book book11"></button>
+                <button class="book book12"></button>
+                <button class="book book13"></button>
+                <button class="book book14"></button>
+                <button class="book book15"></button>
+                <button class="book book16"></button>
+                <button class="book book17"></button>
+                <button class="book book18"></button>
+                <button class="book book19"></button>
+            
+            </div>
+
+            <p class="may">You May Also Like</p>
+            <div class="shelf-may border">
+                <button class="book book20"></button>
+                <button class="book book21"></button>
+                <button class="book book22"></button>
+                <button class="book book23"></button>
+                <button class="book book24"></button>
+                <button class="book book25"></button>
+                <button class="book book26"></button>
+                <button class="book book27"></button>
+                <button class="book book28"></button>
+                <button class="book book29"></button>
+                
+                <button class="book book30"></button>
+                <button class="book book31"></button>
+                <button class="book book32"></button>
+                <button class="book book33"></button>
+                <button class="book book34"></button>
+                <button class="book book35"></button>
+                <button class="book book36"></button>
+                <button class="book book37"></button>
+                <button class="book book38"></button>
+            
+            </div>
+        </div>
+    </header>
+
+    <div id="results" style="display: none;">
+        <button id="home-button" class="home-button">Home</button>
+    </div>
+
+    <div id="book-details" style="display: none; position: absolute; background: white; padding: 20px; border: 1px solid #ccc; z-index: 1000;   border-radius: 10px; color:black ">
+        <button id="close-button" style="position: absolute; top: 10px; right: 10px; background: red; color: white; border: none; border-radius: 50%; width: 30px; height: 30px; cursor: pointer;">&times;</button>
+        <div id="book-content"></div>
+    </div>
+
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</body>
+
+
+
+
+
